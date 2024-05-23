@@ -1,8 +1,10 @@
 {
   "name": "@linhe0x0/biome-config",
+  "type": "module",
   "version": "0.0.1",
   "description": "Personal Biome configuration.",
   "main": "biome.json",
   "keywords": [],
+  "exports": "./biome.json",
   "license": "MIT"
 }
