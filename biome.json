@@ -9,7 +9,25 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "all": true,
+      "complexity": {
+        "noForEach": "off"
+      },
+      "style": {
+        "noDefaultExport": "off",
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "strictCase": true,
+            "requireAscii": true,
+            "filenameCases": ["PascalCase", "kebab-case", "export"]
+          }
+        }
+      },
+      "performance": {
+        "noBarrelFile": "off",
+        "noReExportAll": "off"
+      }
     }
   },
   "javascript": {
@@ -20,4 +38,3 @@
     }
   }
 }
-
